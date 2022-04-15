@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Alarm_app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">hello</string>
+    <string name="welcome">welcome</string>
+    <string name="time_today">time today</string>
+    <string name="date_today">date today</string>
+    <string name="setreminder">setreminder</string>
+    <string name="set_reminder">set reminder</string>
+    <string name="set_time">set</string>
+    <string name="one_time_alarm">one time alarm</string>
+    <string name="set_date">set</string>
+    <string name="repeating_alarm">repeating alarm</string>
+    <string name="todo">TODO</string>
+</resources>

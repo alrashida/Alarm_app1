@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mysus.alarm_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bg_rounded_white_stroke"
+        android:label="Alarm"
+        android:roundIcon="@drawable/ic_repeating"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Alarm_app">
+        <receiver android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <activity
+            android:name=".RepeatingAlarmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneTimeAlarmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
